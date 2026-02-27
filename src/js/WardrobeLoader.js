@@ -8,10 +8,11 @@ const DOOR_GROUP_MAP = {
   12: 'sideLeftDoor', 18: 'sideLeftDoor', 19: 'sideLeftDoor', 20: 'sideLeftDoor',
   13: 'sideRightDoor', 21: 'sideRightDoor', 22: 'sideRightDoor', 23: 'sideRightDoor',
   14: 'topFoldDoor', 15: 'topFoldDoor', 16: 'topFoldDoor', 17: 'topFoldDoor',
+  24: 'lowerInnerCabinet', 25: 'lowerInnerCabinet',
 };
 
-const FOLD_DOWN_IDS = new Set([14, 15, 16, 17]); // rotate on X axis
-const DRAWER_IDS    = new Set([9, 10, 11]);       // slide on Z axis only
+const FOLD_DOWN_IDS = new Set([14, 15, 16, 17]);     // rotate on X axis
+const DRAWER_IDS    = new Set([9, 10, 11, 24, 25]);  // slide on Z axis only
 
 // PBR roughness/metalness per surface color
 const MATERIAL_PRESETS = {
