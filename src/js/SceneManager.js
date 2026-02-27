@@ -56,7 +56,7 @@ export class SceneManager {
     this.scene.add(new THREE.HemisphereLight(0xdde8f0, 0x2a1a0a, 0.5));
 
     const key = new THREE.DirectionalLight(0xfff5e8, 1.4);
-    key.position.set(12, 22, -18);
+    key.position.set(3, 7, -11);
     key.castShadow = true;
     key.shadow.mapSize.set(2048, 2048);
     key.shadow.camera.near   = 5;
